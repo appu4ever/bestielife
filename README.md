@@ -2,7 +2,7 @@
 <p align="center"><img width=5.5% src="client/public/images/paw.svg"></p>
 <h1 align="center">BestieLife</h1>
 
-<h4 align="center">An application to manage your pet's life efficiently.</h4>
+<h4 align="center">Built by pet lovers for pet lovers.:heart:</h4>
 <br />
 
 <p align="center">
