@@ -1,12 +1,12 @@
 
-<p align="center"><img width=5.5% src="client/public/images/paw.svg"></p>
+<p align="center"><img width=5.5% src="app/assets/images/paw-logo.svg"></p>
 <h1 align="center">BestieLife</h1>
-
+<h3 align="center">Live at :zap: <a href="bestielife.com.au">BestieLife</a></h4>
 <h4 align="center">Built by pet lovers for pet lovers.:heart:</h4>
 <br />
 
 <p align="center">
-  <a href="#proposed-features">Proposed Features</a> •
+  <a href="#features">Features</a> •
   <a href="#tech-stack">Tech Stack</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#database-design">Database Design</a> •
@@ -31,7 +31,7 @@ Login screen               |  Dashboard                |  Expenses
 
 <br />
 
-## Proposed Features
+## Features
 
 * Cookie-based authentication.
 * Expense and budget tracking
