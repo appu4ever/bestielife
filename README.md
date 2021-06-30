@@ -14,28 +14,30 @@
 </p>
 <br />
 
-Login screen               |  Dashboard                |  Expenses
-:-------------------------:|:-------------------------:|:-------------------------:
-![](client/public/images/Login.png)  |  ![](client/public/images/readme-dashboard.png)  | ![](client/public/images/readme-expenses.png) 
+<div align="center">
+  <img src="app/assets/images/Map.png" height="400" />
+  <img src="app/assets/images/Chatroom.png" height="400" />
+  <img src="app/assets/images/Photos.png" height="400" />
+  <img src="app/assets/images/BestieCalendar.png" height="400" />
+</div>
 
 <br />
 
 ## Tech Stack
 
-* ReactJS/Typescript
-* Chakra UI
-* Node
-* TypeORM
-* PostgreSQL
-* Apollo Client/Server
+* Javascript
+* Ruby on Rails
+* PostGreSQL
 
 <br />
 
 ## Features
 
-* Cookie-based authentication.
+* Make note of important events in your pet's life
 * Expense and budget tracking
-* Explore pet-friendly restaurants/cafe  
+* Explore pet-friendly restaurants/cafe 
+* Chat with friends !!!
+* Pet Insta !! 
 
 <br />
 
@@ -45,25 +47,34 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/appu4ever/bestielife-fullstack
+$ git clone https://github.com/appu4ever/bestielife
 
-# Go into the client repository
-$ cd bestielife-fullstack/client
+# Go into the repository folder
+$ cd bestielife
 
-# Install dependencies
-$ yarn install
+# Check your Ruby version
+$ ruby -v
+```
+The ouput should start with something like `ruby 2.5.1`
+If not, install the right ruby version using [rbenv][rbenv_site] (it could take a while):
 
-# Run the app
-$ yarn run dev
+```bash
+$ rbenv install 2.5.1
+```
 
-# Go into the server repository
-$ cd bestielife-fullstack/server
+### Install dependencies
 
-# Install dependencies
-$ yarn install
+Using [Bundler](https://github.com/bundler/bundler) and [Yarn](https://github.com/yarnpkg/yarn):
 
-# Run the app
-$ yarn run dev
+```bash
+$ bundle && yarn
+
+# Initialize the database
+$ rails db:create db:migrate db:seed
+
+# Serve
+$ rails s
+
 
 ```
 
@@ -71,7 +82,7 @@ $ yarn run dev
 
 ## Database Design
 
-<img src="client/public/images/db-design.png" height="300" />
+<img src="app/assets/images/db-design.png" height="300" />
 
 <br />
 
